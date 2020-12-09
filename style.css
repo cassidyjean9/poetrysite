@@ -1,0 +1,57 @@
+body {
+    background-image: url("assets/blue_marble.gif");
+    background-repeat: repeat;
+  }
+
+input, #inputPoem {
+  -webkit-writing-appearance: none;
+  
+  width: 50vw;
+  margin: 10px;
+  padding: 10px;
+}
+.form {
+  width: 80%;
+  position: absolute;
+}
+
+
+
+#inputPoem {
+  
+  height: 40vh;
+}
+
+
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: #fff;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.poem-page {
+  position: fixed;
+  bottom: 50vh;
+  right: 10vw;
+  font: 'Times New Roman', cursive;
+  font-style: italic;
+  text-decoration: underline;
+  color: green;
+  size: 50px;
+}
+
+.poems-display{
+  background-color: whitesmoke;
+  padding: 50px;
+  margin: 100px;
+  width:80%;
+  height: 100%;
+}
+
+.titles-style {
+  font-style: cursive;
+}
